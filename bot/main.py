@@ -10,7 +10,7 @@ def save():
 
 def load():
    with open("films.json", "r", encoding = "utf-8") as fh:
-      films =json.load(fh)
+      films = json.load(fh)
    print("Фильмотека быда успешно загружена")      
 
 
